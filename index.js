@@ -4,5 +4,5 @@ block1.addEventListener("click", function(){
 	alert("Hello, JS connected!");
 });
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- 	block1.classList.add("block1");
+ 	//code...
 }
