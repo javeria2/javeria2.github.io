@@ -1,0 +1,146 @@
+body {
+  margin:0; 
+  padding:0;
+}
+
+html,body{
+  height:100%; 
+  width: 100%;
+  /* linear gradient syntax: linear-gradient(direction, extreme left color, middle color, extreme right color) */
+  background: linear-gradient(to right, rgb(217,216,217), white, rgb(203,203,203));
+}
+
+ .faded_line { 
+    margin: 25px 1.66%;
+    height: 1px;
+    background: -webkit-gradient(linear, 0 0, 90% 0, from(rgb(217,216,217)), to(rgb(217,216,217)), color-stop(50%, grey));
+    width: 230px;
+}
+
+.container{
+  width:270px;
+  margin:50px auto;
+}
+
+.homePage{
+  font-family: 'BenchNine', sans-serif;
+  line-height:0.8;
+  text-transform:uppercase;
+}
+
+/* assign homepage colors */
+.line1, .line2 {
+  color:rgb(226,226,189);
+}
+.block1 {
+  color:rgb(215,219,186);
+  transition: all 0.2s;
+}
+.line5 {
+  color:rgb(193,202,178);
+  transition: all 0.2s;
+}
+.line7 {
+  color:rgb(159,177,167);
+  transition: all 0.2s;
+}
+.block4 {
+  color:rgb(117,145,154);
+  transition: all 0.2s;
+}
+.block5 {
+  color:rgb(69,109,138);
+  transition: all 0.2s;
+}
+.line12 {
+  color:rgb(41,88,129);
+  transition: all 0.2s;
+}
+
+/* homepage hovers */
+.line1:hover, .line2:hover {
+  cursor: default;
+}
+
+.block1:hover {
+  font-size: 2.5vmin;
+  transition: all 0.2s;
+  cursor: pointer;
+  /*text-align: center;*/
+}
+
+.block2:hover {
+  font-size: 6em;
+  transition: all 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.block3:hover {
+  font-size: 7em;
+  transition: all 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.block4:hover {
+  font-size: 2.5vmin;
+  transition: all 0.2s;
+  cursor: pointer;
+  /*text-align: center;*/
+}
+
+.block5:hover {
+  font-size: 2.5vmin;
+  transition: all 0.2s;
+  cursor: pointer;
+  /*text-align: center;*/
+}
+
+.block6:hover {
+  font-size: 9em;
+  transition: all 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* homepage fonts */
+.line1{
+  font-size:5.6em;
+}
+.line2{
+  font-size:6.2em;
+}
+.line3{
+  font-size:4.8em;
+}
+.line4{
+  font-size:6.4em;
+}
+.line5{
+  font-size:4.1em;
+}
+.line6{
+  font-size:6em;
+}
+.line7{
+  font-size:4.5em;
+}
+.line8{
+  font-size:4.8em;
+}
+.line9{
+  font-size:5.2em;
+}
+.line11{
+  font-size: 7.9em;
+}
+.line10{
+  font-size:4.9em;
+}
+.line12{
+  font-size:5.85em;
+}
+
+
