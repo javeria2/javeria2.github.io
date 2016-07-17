@@ -26,12 +26,17 @@ html,body{
   font-family: 'BenchNine', sans-serif;
   line-height:0.8;
   text-transform:uppercase;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;  /* IE v9+ */
 }
 
 /* assign homepage colors */
 .line1, .line2 {
   color:rgb(226,226,189);
 }
+
 .block1 {
   color:rgb(215,219,186);
   transition: all 0.2s;
