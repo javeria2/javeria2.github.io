@@ -22,6 +22,10 @@ html{
     width: 230px;
 }
 
+.section {
+  text-align: center;
+}
+
 #section_1 {
   /* linear gradient syntax: linear-gradient(direction, extreme left color, middle color, extreme right color) */
    background: linear-gradient(to right, rgb(222,228,221), white, rgb(222,228,221));
