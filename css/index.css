@@ -1,0 +1,253 @@
+/*
+------------- 
+INITIAL SETUP
+-------------
+ */
+
+body {
+  margin:0; 
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  height:100%; 
+  width: 100%;
+}
+
+ .faded_line { 
+    margin: 25px 1.66%;
+    height: 1.4px;
+    background: -webkit-gradient(linear, 0 0, 90% 0, from(rgb(238,238,238)), to(rgb(238,238,238)), color-stop(50%, grey));
+    width: 230px;
+}
+
+#section_1 {
+  /* linear gradient syntax: linear-gradient(direction, extreme left color, middle color, extreme right color) */
+   background: linear-gradient(to right, rgb(222,228,221), white, rgb(222,228,221));
+}
+
+.container{
+  position: relative;
+  top: 2vh;
+  width:270px;
+  margin:0 auto;
+  font-family: 'BenchNine', sans-serif;
+  line-height:0.8;
+  text-transform:uppercase;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;  /* IE v9+ */
+}
+
+.container em {
+  font-style: normal;
+}
+
+.container a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* 
+---------
+STYLING
+---------
+*/
+
+/*------------------------
+        HOMEPAGE
+-------------------------*/
+
+/* assign homepage colors */
+.container .line1, .line2 {
+  color:rgb(226,226,189);
+}
+
+.container .block1 {
+  color:rgb(215,219,186);
+  transition: all 0.2s;
+}
+.container .line5 {
+  color:rgb(193,202,178);
+  transition: all 0.2s;
+}
+.container .line6 {
+  color:rgb(159,177,167);
+  transition: all 0.2s;
+}
+.container .block2 {
+  color:rgb(117,145,154);
+  transition: all 0.2s;
+}
+.container .block3 {
+  color:rgb(69,109,138);
+  transition: all 0.2s;
+}
+.container .line11 {
+  color:rgb(41,88,129);
+  transition: all 0.2s;
+}
+
+/* homepage hovers */
+.container .block0:hover {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.container .block1:hover {
+  font-size: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  /*text-align: center;*/
+}
+
+.container .line5:hover {
+  font-size: 5em;
+  transition: all 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .line6:hover {
+  font-size: 5.5em;
+  transition: all 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .block2:hover {
+  font-size: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  /*text-align: center;*/
+}
+
+.container .block3:hover {
+  font-size: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  /*text-align: center;*/
+}
+
+.container .line11:hover {
+  font-size: 7.5em;
+  transition: all 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* homepage fonts */
+.container .line1{
+  font-size:5.6em;
+}
+.container .line2{
+   font-size:6.2em;
+}
+.container .line3{
+  font-size:4.8em;
+}
+.container .line4{
+  font-size:6.4em;
+}
+.container .line5{
+  font-size:4.1em;
+}
+.container .line6{
+  font-size:4.5em;
+}
+.container .line7{
+  font-size:4.8em;
+}
+.container .line8{
+  font-size:5.2em;
+}
+.container .line9{
+  font-size:4.9em;
+}
+.container .line10{
+  font-size: 7.9em;
+}
+.container .line11{
+  font-size:5.85em;
+}
+
+/* override defaults for navbars */
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+  background: white !important;
+  height: 80% !important;
+  width: 80% !important;
+}
+      
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+    background: transparent !important;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin: -2px 0 0 -2px !important;
+}
+
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+    height: 100% !important;
+    width: 100% !important;
+    margin: -2px 0px 0px -2px !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  font-family: 'BenchNine' !important;
+  font-size: 25px !important;
+  top: -6px !important;
+}
+
+/*----------------------------
+        PERSONAL INFORMATION
+------------------------------*/
+#section_2 {
+  background: rgb(215,219,186);
+}
+
+/*----------------------------
+        EXPERIENCE
+------------------------------*/
+#section_3 {
+  background: rgb(193,202,178);
+}
+
+/*----------------------------
+        EDUCATION
+------------------------------*/
+#section_4 {
+  background: rgb(159,177,167);
+}
+
+/*----------------------------
+        PERSONAL PROJECTS
+------------------------------*/
+#section_5 {
+  background: rgb(117,145,154);
+}
+
+.slide {
+  text-align: center;
+}
+
+/*----------------------------
+        TECH SKILLS 
+------------------------------*/
+#section_6 {
+  background: rgb(69,109,138);
+}
+
+/*----------------------------
+        CONTACT
+------------------------------*/
+#section_7 {
+  background: rgb(41,88,129);
+}
+

@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>  
+<link rel="stylesheet" type="text/css" href="../css/jquery.fullPage.css" />
+
+<script type="text/javascript" src="../jQuery/jquery-3.1.0.min.js"></script>
+
+<script type="text/javascript" src="../js/jquery.fullPage.js"></script>
+<style type="text/css">
+	body {
+		padding: 0;
+		margin: 0;
+	}	
+/*  .slide
+{
+    position: relative;
+    z-index: 1000;
+}
+#second {
+  z-index: -1;
+}*/
+
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+         // sectionsColor: [linear-gradient(to right, rgb(217,216,217), white, rgb(203,203,203)), '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+         anchors: ['homePage', 'Personal-Details'],
+         sectionsColor: ['#ABCDEF','#AE3D41'],
+       // menu: '#menu',
+       // controlArrows: true
+      });
+    });
+}
+  </script>
+	<title>Demo</title>
+</head>
+<body>
+<div id="fullpage">
+	<div class="section">Hi!</div>
+	<div class="section">
+   <div class="slide">page 1</div> 
+   <div class="slide">page 2</div>
+  </div>
+</div>
+
+</body>
+</html>
+
