@@ -221,6 +221,10 @@ STYLING
   padding: 0;
 }
 
+.section2-container {
+  height: 100%;
+}
+
 .post-header {
 /*
   font-size: 16px;
@@ -234,23 +238,27 @@ STYLING
     /*top: 100%;*/
 /*  top: 0%;
   bottom: 50%;*/
-  background: #22BDA0;
+  background: url("../imgs/background.svg");
+  background-size: cover;
   max-width: 100%;
-  height: auto;
+  height: 26em;
+  overflow: hidden;
 }
 
-.post-header .header-image {
+/*.post-header .header-image {*/
 /*    position: relative;
     top: 6%;
     left: 50%;
     transform: translateX(-50%);
     width: 90vw;
     height: 60vh;*/
-    max-width: 100%;
-    height: auto;
+
+
+/*    max-width: 100%;
+    height: 50%;
     margin: 0;
     padding-top: 30px;
-}
+}*/
 
 /*.picture {
   background-image: url("../imgs/picture.png") no-repeat center fixed;
