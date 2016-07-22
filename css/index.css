@@ -33,7 +33,7 @@ html{
 
 .container{
   position: relative;
-  top: 2vh;
+  top: 0vh;
   width:270px;
   margin:0 auto;
   font-family: 'BenchNine', sans-serif;
@@ -49,7 +49,7 @@ html{
   font-style: normal;
 }
 
-.container a{
+a{
   text-decoration: none;
   display: inline-block;
 }
@@ -216,61 +216,11 @@ STYLING
         PERSONAL INFORMATION
 ------------------------------*/
 #section_2 {
-  background: rgb(252,245,242);
+  background: #FFEEEE; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left,#DDEFBB, #FFEEEE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 0;
   padding: 0;
-}
-
-.section2-container {
-  height: 100%;
-}
-
-.post-header {
-/*
-  font-size: 16px;
-  height: 30em;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: absolute;*/
-    /*top: 100%;*/
-/*  top: 0%;
-  bottom: 50%;*/
-  /*background: #22BDA0;*/
-
-  background: url("../imgs/background.svg");
-  background-color: #22BDA0;
-  background-size: 780px 700px;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 26em;
-  overflow: hidden;
-  width: 100%;
-  /*max-width: 100%;*/
-}          
-
-/*.post-header .header-image {*/
-/*    position: relative;
-    top: 6%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90vw;
-    height: 60vh;*/
-
-
-
-/*    max-width: 100%;
-    height: auto;
-    position: relative;*/
-    /*top: 100px;*/
-/*}*/
-
-/*.picture {
-  background-image: url("../imgs/picture.png") no-repeat center fixed;
-  height: 100px;
-  width: 100px;
 }
 
 .section2-container {
@@ -280,28 +230,43 @@ STYLING
   margin:0 auto;
 }
 
-.box1 {
-  border: 1px solid red;
-  box-sizing: border-box;
-  float: left;
-  margin: 100px;
-  position: absolute;
+.box2 {
+    position: relative;
+    top: 40px;
+    -webkit-box-shadow: -12px 16px 30px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -12px 16px 30px -12px rgba(0,0,0,0.75);
+    box-shadow: -12px 16px 30px -12px rgba(0,0,0,0.75);
+    display: inline-block;
+    max-width: 300px;
+    padding: 10px;
+    overflow: hidden;
+    background: -webkit-linear-gradient(to right, rgb(250,240,145) , rgb(255,238,117)); 
+    background: linear-gradient(to right, rgb(250,240,145) , rgb(255,238,117));
 }
+
+.box2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 25px 25px 0;
+  border-style: solid;
+  border-color: rgb(255,216,0) rgb(234,239,206);
+  display: block;
+  width: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+}
+
 
 p{
     margin: 0;
     padding: 0;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 35px; include*/
-
-
-    /*margin-right: 40px;*/
-    /*border: 1px solid red;*/
-
-
-/*    outline: 0;
-    font-size: 130%;
+    padding-left: 10px;
+    padding-right: 10px; 
+    outline: 0;
+    font-size: 115%;
     vertical-align: baseline;
     display: block;
     -webkit-margin-before: 1em;
@@ -309,52 +274,15 @@ p{
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     text-align: justify;
-    line-height: 1.4; include*/
+    line-height: 1.4;
+    font-family: 'Josefin Slab';
+    color: rgb(79,109,137); 
+} 
 
-
-    /*-webkit-font-smoothing: antialiased; */
-/*  border: 1px solid transparent;
-  box-sizing: border-box;
-  float: left;
-  height: 75vh;
-  width: 60vw;
-  overflow: hidden;
-  text-align: justify;*/
-  /*margin: 10% 30%;*/
-
-
-  /*font-family: 'Josefin Slab'; include*/
-
-
-  /*font-size: 150%;*/
-
-
-  /*color: rgb(79,109,137); 
-} include */
-
-/*p:nth-of-type(1) {
-  padding-top: 200px;
+p:nth-of-type(1) {
+  padding-top: 120px;
 }
 
-.box2 {
-  position: relative;
-  padding-top: 1px;
-  padding-left: 4px; include*/
-
-
-  /*font-size: 0.94em;*/
-
-/*  
-  vertical-align: baseline;
-  border: 1px solid red;
-  border-spacing: 10px 50px; 
-}include*/
-
-/*@media (max-width: 650px) .section2-container .box2{
-  margin-left: 0px;
-  text-align: center;
-  padding-top: 10px;
-} include*/
 /*----------------------------
         EXPERIENCE
 ------------------------------*/
