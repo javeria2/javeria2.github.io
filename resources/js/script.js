@@ -129,4 +129,23 @@ jQuery(document).ready(function($) {
 	    arrowRightText: '&rarr;',
 	    arrowLeftText: '&larr;'
 	  });
+
+	// google maps
+
+	var map = new GMaps({
+	  div: '#map',
+	  scrollwheel: false,
+	  lat: 40.1146914,
+	  lng: -88.0,
+	  zoom: 12
+	});
+
+	map.addMarker({
+	  lat: 40.1146914,
+	  lng: -88.0,
+	  title:'champaign',
+	  infoWindow: {
+	  	content: '<p>Come try us!</p>'
+	  }
+	});
 });	

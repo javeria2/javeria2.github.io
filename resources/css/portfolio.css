@@ -684,6 +684,59 @@ nav a:hover::after {
 
 
 /*========*/
+/* CONTACT*/
+/*========*/
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input, 
+select, 
+textarea {
+    width: 80%;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline-width: 0;
+    margin-left: 40px;
+}
+
+textarea{
+    max-width: 80%;
+}
+
+#submit-form {
+    margin-left: 30px;
+}
+
+#map {
+    width: 100%;
+    height: 580px;
+    position: relative;
+    z-index: 0;
+}
+
+.contact-box {
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+
+.form-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    height:580px;
+    width: 50%;
+    padding-top: 40px;
+}
+
+
+/*========*/
 /* FOOTER */
 /*========*/
 footer {
