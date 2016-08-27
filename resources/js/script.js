@@ -122,14 +122,14 @@ jQuery(document).ready(function($) {
 	var map = new GMaps({
 	  div: '#map',
 	  scrollwheel: false,
-	  lat: 40.1146914,
-	  lng: -88.0,
+	  lat: 40.1137661,
+	  lng: -88.2323177,
 	  zoom: 12
 	});
 
 	map.addMarker({
-	  lat: 40.1146914,
-	  lng: -88.0,
+	  lat: 40.1137661,
+	  lng: -88.2323177,
 	  title:'champaign',
 	  infoWindow: {
 	  	content: '<p>Come try us!</p>'
