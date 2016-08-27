@@ -287,7 +287,7 @@ nav a:hover::after {
 .about-me {
     font-family: 'Lato';
     padding: 10rem 0;
-    background-image: linear-gradient(rgba(93, 116, 128, 0.9), rgba(93, 116, 128, 0.9)), url(imgs/about-me-2.jpg);
+    background-image: linear-gradient(rgba(93, 116, 128, 0.9), rgba(93, 116, 128, 0.9)), url(imgs/about-me-II.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-size: 1.9rem;
