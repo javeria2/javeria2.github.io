@@ -676,6 +676,10 @@ nav a:hover::after {
 /*=========*/
 /*EDUCATION*/
 /*=========*/
+.education {
+    padding: 8rem 0;
+}
+
 #box1 p, 
 #box2 p{
     font-size: 1.6rem;
