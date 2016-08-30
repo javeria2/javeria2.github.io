@@ -45,6 +45,7 @@
 	$mail->Password = 'Kratos09';
 	$mail->SMTPSecure = 'ssl';
 	$mail->Port = 465;
+	$mail->SMTPDebug = 2;
 
 	$name = strip_tags(trim($_POST["name"]));
 	$name = str_replace(array("\r","\n"), array(" "," "), $name);
