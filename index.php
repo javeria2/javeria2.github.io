@@ -341,7 +341,7 @@
 	                		echo "<div class=\"form-messages success\">
 	                			<i class=\"fa fa-smile-o\" aria-hidden=\"true\"></i> Message sent! Thanks for getting in touch.
 	                		</div>";
-	                	} else {
+	                	} else if ($_GET['success'] == -1){
 							echo "<div class=\"form-messages error\">
 	                			<i class=\"fa fa-frown-o\" aria-hidden=\"true\"></i> Oops! Something went wrong. Please try again!
 	                		</div>";
