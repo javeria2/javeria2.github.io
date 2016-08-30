@@ -36,10 +36,14 @@
 
 
 	require_once'vendor/autoload.php';
+	require ('vendor/phpmailer/phpmailer/class.phpmailer.php');
+	require ('vendor/phpmailer/phpmailer/class.smtp.php');
+
 
 	$mail = new PHPMailer;
 	$mail->SMTPAuth = true;
-
+	$mail->IsSMTP();
+	
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Username = 'dev.sanchay.javeria@gmail.com';
 	$mail->Password = 'Kratos09';
