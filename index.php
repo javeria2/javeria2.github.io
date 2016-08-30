@@ -334,7 +334,7 @@
             <h2>Let's talk</h2>
         </div>
         <div class="container">
-            <form method="POST" action="#" class="contact-form">
+            <form method="POST" action="mailer.php" class="contact-form">
                 <div class="container">
 	                <?php 
 	                	if($_GET['success'] == 1) {
