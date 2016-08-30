@@ -28,10 +28,11 @@
 	$email_headers = "From: $name <$email>";
 
 
-$headers = 'From: <test@test.com>' . "\r\n" .'Reply-To: <test@test.com>';
+$headers = 'From: <test@test.com>' . "\r\n" .
+'Reply-To: <test@test.com>';
 
-mail($recipient, 'the subject', $email_content, $headers,
-  '-f $email');
+mail('<sanchay.javeria@gmail.com>', 'the subject', 'the message', $headers,
+  '-fwebmaster@example.com');
 
 
 	//send the email 
