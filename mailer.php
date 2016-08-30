@@ -14,7 +14,7 @@
 	}
 
 	//set the recipient email address
-	$recipient = "sanchay.javeria@gmail.com";
+	$recipient = "javeria2@illinois.edu";
 
 	//set mail subject 
 	$subject = "[PORTFOLIO MSG] New message from $name";
@@ -25,7 +25,7 @@
 	$email_content .= "Message: $message\n";
 
 	//build email header
-	$email_headers = "From $name <$email>";
+	$email_headers = "From: $name <$email>";
 
 
 	$headers = 'From: <test@test.com>' . "\r\n" .
