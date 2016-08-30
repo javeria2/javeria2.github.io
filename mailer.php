@@ -81,6 +81,8 @@ $mail->Subject = $subject;
 //Replace the plain text body with one created manually
 $mail->AltBody = $email_content;
 
+$mail->Body = $email_content;
+
 //send the message, check for errors
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
