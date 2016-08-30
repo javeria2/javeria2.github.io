@@ -1,4 +1,3 @@
-<meta http-equiv="refresh" content="10; url=/" />
 <?php 
 	
 	//get form field values
