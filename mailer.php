@@ -1,7 +1,7 @@
 <?php 
 	
 	//get form field values
-	$name = strip_tags($_POST["name"]));
+	$name = strip_tags(trim($_POST["name"]));
 	$name = str_replace(array("\r","\n"), array(" "," "), $name);
 	$email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 	$message = trim($_POST["message"]);
