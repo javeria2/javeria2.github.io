@@ -62,10 +62,10 @@
 	$mail->From = $email;
 	$mail->FromName = $name;
 	$mail->addReplyTo($email, $name);
-	$mail->addAddress = ('dev.sanchay.javeria@gmail.com','Sanchay Javeria');
+	$mail->addAddress('dev.sanchay.javeria@gmail.com','Sanchay Javeria');
 	$mail->Subject = $subject;
 	$mail->Body = $email_content;
 	$mail->AltBody = $email_content;
 
-	var_dump($m->send());
+	var_dump($mail->send());
 ?>
