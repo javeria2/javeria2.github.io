@@ -7,7 +7,7 @@
  	<meta name="description" content="Portfolio website of Sanchay Javeria, Computer Science Undergrad at University of Illinois, Urbana-Champaign." />
  	<meta name="keywords" content="Sanchay Javeria, Sanchay Javeria website, Sanchay Javeria Portfolio, inspiration, CS@UofI, Computer Science, developer, web designer" />
 	<meta name="author" content="Sanchay Javeria" />
-	<meta http-equiv="refresh" content="10; url=http://sanchayjaveria.herokuapp.com/" />
+	<meta http-equiv="refresh" content="10; url=/" />
 	<title>Sanchay Javeria</title>
 
 	<!-- favicons -->
