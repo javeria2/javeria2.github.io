@@ -31,6 +31,6 @@
 	mail($recipient, $subject, $email_content, $email_headers);
 
 	//redirect with success code 
-	header("Location: http://sanchayjaveria.herokuapp.com/index.php?success=-1#form");
+	header("Location: http://sanchayjaveria.herokuapp.com/index.php?success=1#form");
 
 ?>
