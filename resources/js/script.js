@@ -122,9 +122,9 @@ jQuery(document).ready(function($) {
 	var map = new GMaps({
 	  div: '#map',
 	  scrollwheel: false,
-	  lat: 40.1137661,
-	  lng: -88.2323177,
-	  zoom: 12
+	  lat: 40.1131425,
+	  lng: -88.2288502,
+	  zoom: 16
 	});
 
 	map.addMarker({
@@ -132,7 +132,7 @@ jQuery(document).ready(function($) {
 	  lng: -88.2323177,
 	  title:'champaign',
 	  infoWindow: {
-	  	content: '<p>Come try us!</p>'
+	  	content: '602 E Stoughton St, Unit 12, Champaign, IL'
 	  }
 	});
 });	
