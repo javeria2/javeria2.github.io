@@ -344,9 +344,8 @@
 	                	} else {
 							echo "<div class=\"form-messages error\">
 	                			<i class=\"fa fa-frown-o\" aria-hidden=\"true\"></i> Oops! Something went wrong. Please try again!
-	                		</div>"
+	                		</div>";
 	                	}
-
 	                ?>
 				</div>
 				<div class="container">
