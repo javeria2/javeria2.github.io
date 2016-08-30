@@ -32,7 +32,7 @@
 'Reply-To: <test@test.com>';
 
 mail($recipient, 'the subject', 'the message', $headers,
-  '-f sanchay.javeria@gmail.com');
+  '-f $email');
 
 
 	//send the email 
