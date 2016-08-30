@@ -23,15 +23,15 @@
 	$email_content = "Name: $name\n";
 	$email_content .= "Email: $email\n\n";
 	$email_content .= "Message: $message\n";
+	$email_content->setReturnPath($email);
 
 	//build email header
 	$email_headers = "From: $name <$email>";
 
 
-	$headers = 'From: <test@test.com>' . "\r\n" .
-'Reply-To: <test@test.com>';
+$headers = 'From: <test@test.com>' . "\r\n" .'Reply-To: <test@test.com>';
 
-mail($recipient, 'the subject', 'the message', $headers,
+mail($recipient, 'the subject', $email_content, $headers,
   '-f $email');
 
 
