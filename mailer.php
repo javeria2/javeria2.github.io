@@ -66,7 +66,7 @@
 
 	$mail->From = $email;
 	$mail->FromName = $name;
-	$mail->addReplyTo($email, $name);
+	// $mail->addReplyTo($email, $name);
 	$mail->addAddress('dev.sanchay.javeria@gmail.com','Sanchay Javeria');
 	$mail->Subject = $subject;
 	$mail->Body = $email_content;
