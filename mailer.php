@@ -43,7 +43,12 @@
 	$mail = new PHPMailer;
 	$mail->SMTPAuth = true;
 	$mail->IsSMTP();
-	
+
+	$mail->oauthUserEmail = "dev.sanchay.javeria@gmail.com";
+	$mail->oauthClientId = "183270531144-cijgu3a9psadmcqi8h9npfsgbiqp2232.apps.googleusercontent.com";
+	$mail->oauthClientSecret = "pe17OF8TebSxLaNX2vASTkBy";
+	$mail->oauthRefreshToken = "1/-2KGmNmBZtRAzycxts4hIxPRQEDIKlVnN-raHRw2S0Q";
+
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Username = 'dev.sanchay.javeria@gmail.com';
 	$mail->Password = 'Kratos09';
