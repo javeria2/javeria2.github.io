@@ -27,8 +27,16 @@
 	//build email header
 	$email_headers = "From $name <$email>";
 
+
+	$headers = 'From: <test@test.com>' . "\r\n" .
+'Reply-To: <test@test.com>';
+
+mail('<myEmail@gmail.com>', 'the subject', 'the message', $headers,
+  '-fwebmaster@example.com');
+
+
 	//send the email 
-	mail($recipient, $subject, $email_content, $email_headers);
+	// mail($recipient, $subject, $email_content, $email_headers);
 
 	//redirect with success code 
 	header("Location: http://sanchayjaveria.herokuapp.com/index.php?success=1#form");
