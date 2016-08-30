@@ -23,7 +23,6 @@
 	$email_content = "Name: $name\n";
 	$email_content .= "Email: $email\n\n";
 	$email_content .= "Message: $message\n";
-	$email_content->setReturnPath($email);
 
 	//build email header
 	$email_headers = "From: $name <$email>";
