@@ -25,7 +25,9 @@
 	$email_content .= "Message: $message\n";
 
 	//build email header
-	$email_headers = "From: $name <$email>";
+	$email_headers = "From: $email";
+	$email_headers .= " $name". "\r\n";
+	$email_headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 	//send the email 
 	mail($recipient, $subject, $email_content, $email_headers);
