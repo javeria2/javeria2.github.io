@@ -14,7 +14,7 @@
 	}
 
 	//set the recipient email address
-	$recipient = "javeria2@illinois.edu";
+	$recipient = "sanchay.javeria@hotmail.com";
 
 	//set mail subject 
 	$subject = "[PORTFOLIO MSG] New message from $name";
