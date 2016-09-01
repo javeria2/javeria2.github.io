@@ -117,8 +117,20 @@ jQuery(document).ready(function($) {
 	    arrowLeftText: '&larr;'
 	  });
 
-	// google maps
+	 // burger nav
+	$('.burger-icon').click(function(){
+		if($('.burger-icon i').hasClass('fa-bars')){
+			$('.burger-icon i').addClass("fa-times");
+			$('.burger-icon i').removeClass("fa-bars");
+		} else {
+			$('.burger-icon i').removeClass("fa-times");
+			$('.burger-icon i').addClass("fa-bars");
+		}
+		$('.nav-links').slideToggle(400);
+	});
 
+
+	// google maps
 	var map = new GMaps({
 	  div: '#map',
 	  scrollwheel: false,

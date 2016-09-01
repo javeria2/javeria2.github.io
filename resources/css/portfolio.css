@@ -194,13 +194,14 @@ nav img {
     width: auto;
     float: left;
     margin-left: 20px;
+    margin-top: 14px;
 }
 
 nav span {
     float: left;
     text-transform: uppercase;
     color: black;
-    margin-top: 2px;
+    margin-top: 10px;
 }
 
 span#sanchayjaveria:hover,
@@ -209,7 +210,7 @@ nav img:hover {
 }
 
 span#sanchay {
-    margin-left: 10px;
+    margin-left: 8px;
     font-weight: 700;
 }
 
@@ -241,7 +242,7 @@ nav a {
     padding: 5px 10px;
 }
 
-nav a::before{
+nav a#format::before{
     position: absolute;
     top: 0;
     left: 0;
@@ -258,7 +259,7 @@ nav a::before{
     font-weight: 700;
 }
 
-nav a::after{
+nav a#format::after{
     position: absolute;
     top: 0;
     left: 0;
@@ -271,14 +272,29 @@ nav a::after{
     transition: height 0.3s;
 }
 
-nav a:hover::before {
+nav a#format:hover::before {
     top: 100%;
     opacity: 1;
 }
 
-nav a:hover::after {
+nav a#format:hover::after {
     height: 100%;
 } 
+
+
+/*=================*/
+/*BURGER NAVIGATION*/
+/*=================*/
+.burger-icon {
+    float: right;
+    margin-top: -10px;
+    cursor: pointer;
+    display: none;
+}
+
+.burger-icon i{
+    font-size: 200%;
+}
 
 /*==========*/
 /* ABOUT ME */
@@ -704,6 +720,10 @@ textarea{
     background-color: transparent;
 }
 
+.btn:focus {
+    outline: none;
+}
+
 .form-messages {
     width: 70%;
     margin: 0 auto;
@@ -873,6 +893,62 @@ footer img {
         font-size: 2.5rem;
         display: inline-block;
     }
+
+
+    .nav-links {
+        display:none;
+    }
+    nav span {
+        margin-top: 7px;
+    }
+    nav img {
+        margin-top: 5px;
+    }
+    .burger-icon {
+        display: inline-block !important;
+        margin-top: 3px;
+    }
+    .nav-links {
+        float: left;
+        margin-top: 38px;
+        margin-left: 25px;
+    }
+    .nav-links a{
+        display: block !important;
+    }
+    .nav-links a:link,
+    .nav-links li a:visited{
+        border:0;
+        display: block;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+    nav a#format::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 0px;
+        content: '';
+    }
+
+    nav a#format::after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0px;
+        height: 0px;
+        content: '';
+    }
+
+    nav a#format:hover::before {
+        top: 0%;
+        opacity: 1;
+    }
+
+    nav a#format:hover::after {
+        height: 0%;
+    } 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 847px) {
@@ -891,6 +967,61 @@ footer img {
         top: 250px;
         left: 45px;
     }
+
+    .nav-links {
+        display:none;
+    }
+    .burger-icon {
+        display: inline-block !important;
+        margin-top: 3px;
+    }
+    nav span {
+        margin-top: 7px;
+    }
+    nav img {
+        margin-top: 5px;
+    }
+    .nav-links {
+        /*float: left;*/
+        margin-top: 38px;
+        margin-left: 25px;
+    }
+    .nav-links a{
+        display: block !important;
+    }
+    .nav-links a:link,
+    .nav-links li a:visited{
+        border:0;
+        display: block;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+    nav a#format::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 0px;
+        content: '';
+    }
+
+    nav a#format::after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0px;
+        height: 0px;
+        content: '';
+    }
+
+    nav a#format:hover::before {
+        top: 0%;
+        opacity: 1;
+    }
+
+    nav a#format:hover::after {
+        height: 0%;
+    } 
 }
 
 /* Ipad in portrait mode */
@@ -957,7 +1088,7 @@ footer img {
     }
     /*NAV*/
     nav {
-        font-size: 1.7rem !important;
+        font-size: 1.5rem !important;
     }
     nav a {
         margin: 0 10px;

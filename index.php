@@ -60,15 +60,17 @@
 
 <!-- NAVIGATION BAR -->
 <nav>
+	<img src="resources/img/footer.png"><span id="sanchayjaveria"><span id="sanchay">Sanchay</span> <span id="javeria">Javeria</span></span>
 	<div class="nav-links">
-		<img src="resources/img/footer.png"><span id="sanchayjaveria"><span id="sanchay">Sanchay</span> <span id="javeria">Javeria</span></span>
-	    <a href="#link__about-me" class="a1">About me</a>
-	    <a href="#link__skills" class="a2">Skills</a>
-	    <a href="#link__projects" class="a3">Projects</a>
-	    <a href="#link__education" class="a4">Education</a>
-	    <a href="resume.html" target="_blank" class="a5">Resume</a>
-	    <a href="#link__contact" class="a6">Contact</a>
+	    <a href="#link__about-me" class="a1" id="format">About me</a>
+	    <a href="#link__skills" class="a2" id="format">Skills</a>
+	    <a href="#link__projects" class="a3" id="format">Projects</a>
+	    <a href="#link__education" class="a4" id="format">Education</a>
+	    <a href="resume.html" target="_blank" class="a5" id="format">Resume</a>
+	    <a href="#link__contact" class="a6" id="format">Contact</a>
+    	<!-- BURGER -->
     </div>
+    	<a class="burger-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
 </nav>
 
 <!-- ABOUT ME -->
