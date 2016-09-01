@@ -61,6 +61,7 @@
 <!-- NAVIGATION BAR -->
 <nav>
 	<img src="resources/img/footer.png"><span id="sanchayjaveria"><span id="sanchay">Sanchay</span> <span id="javeria">Javeria</span></span>
+    <a class="burger-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
 	<div class="nav-links">
 	    <a href="#link__about-me" class="a1" id="format">About me</a>
 	    <a href="#link__skills" class="a2" id="format">Skills</a>
@@ -70,7 +71,6 @@
 	    <a href="#link__contact" class="a6" id="format">Contact</a>
     	<!-- BURGER -->
     </div>
-    	<a class="burger-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
 </nav>
 
 <!-- ABOUT ME -->
