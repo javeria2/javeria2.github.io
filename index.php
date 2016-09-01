@@ -81,7 +81,7 @@
 	</div>
 	<div class="container">
 		<p>I'm Sanchay, currently pursuing my B.S. in Computer Science from the University of Illinois at Urbana-Champaign. I'm a full stack Web-Developer and besides coding for the web, my key interests lie in iOS Programming and UI/UX Design. I'm a believer of the fact that what doesn't look good, doesn't sell and that is why I give material design the utmost priority in all my works.</p>
-		<p>In my free hours, I like to <span class="typer" id="typerjs" data-delay="70" data-delim=":" data-words="leisure travel.:read manga comics.:play billiards.:swim.:listen to EDM.:watch anime.:figure out who'll claim the iron throne?" data-colors="white"></span></p>
+		<p>In my free hours, I like to <span class="typer" id="typerjs" data-delay="70" data-delim=":" data-words="leisure travel.:read manga.:play billiards.:swim.:listen to EDM.:watch anime.:figure out who'll claim the iron throne?" data-colors="white"></span></p>
 		<p>Currently I'm on the lookout for an exciting new project. If you'd want to collaborate on some quirky ideas or just talk about life in general, get in touch!</p>
 	</div>
 </section>
