@@ -46,6 +46,10 @@
 </head>
 
 <body>
+
+<!-- PRELOADER -->
+<div class="se-pre-con"></div>
+
 <!-- HOMEPAGE -->
 <header class="header js__here-header">
 	<div class="main-headline">
@@ -422,6 +426,7 @@
 <script type="text/javascript" src="external/js/jquery.glide.min.js"></script> <!-- glide -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIsKcxEoXUG9pQ-rJQFProzcCoKPNaksM"></script> <!-- google maps -->
 <script type="text/javascript" src="external/js/gmaps.js"></script> <!-- gmaps -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script> <!-- modernizr -->
 
 </body>
 </html>

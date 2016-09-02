@@ -1,6 +1,12 @@
 jQuery(document).ready(function($) {
 	$('nav').css('opacity', 0);
 
+	//loader
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
 	//making nav title clickable
 	$('#sanchayjaveria').click(function(){
 		$('html, body').animate({
