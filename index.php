@@ -407,10 +407,10 @@
 	<p>Built with <i class="fa fa-heart" id="heart" aria-hidden="true"></i> in the beautiful city of Jaipur, India.</p>
 	<small>&copy; 2016 by Sanchay Javeria. All rights reserved.</small>
 	<div class="socials">
-		<p><a href="#"><i class="fa fa-linkedin-square" id="linkedin" aria-hidden="true"></i></a></p>
-		<p><a href="#"><i class="fa fa-github-square" id="github" aria-hidden="true"></i></a></p>
-		<p><a href="#"><i class="fa fa-facebook-square" id="facebook" aria-hidden="true"></i></a></p>
-		<p><a href="#"><i class="fa fa-google-plus-square" id="google" aria-hidden="true"></i></a></p>
+		<p><a href="https://www.linkedin.com/in/javeria2"><i class="fa fa-linkedin-square" id="linkedin" aria-hidden="true"></i></a></p>
+		<p><a href="https://www.github.com/javeria2"><i class="fa fa-github-square" id="github" aria-hidden="true"></i></a></p>
+		<p><a href="https://www.facebook.com/sanchay.javeria"><i class="fa fa-facebook-square" id="facebook" aria-hidden="true"></i></a></p>
+		<p><a href="https://plus.google.com/u/0/+sanchayjaveria"><i class="fa fa-google-plus-square" id="google" aria-hidden="true"></i></a></p>
 	</div>
 </footer>
 
