@@ -60,7 +60,7 @@
 
 <!-- NAVIGATION BAR -->
 <nav>
-	<img src="resources/img/footer.png"><span id="sanchayjaveria"><span id="sanchay">Sanchay</span> <span id="javeria">Javeria</span></span>
+	<img src="resources/img/logo.png"><span id="sanchayjaveria"><span id="sanchay">Sanchay</span> <span id="javeria">Javeria</span></span>
     <a class="burger-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
 	<div class="nav-links">
 	    <a href="#link__about-me" class="a1" id="format">About me</a>
@@ -402,7 +402,7 @@
 <!-- FOOTER -->
 <footer>
 	<div class="footer-img">
-		<img src="resources/img/footer.png">
+		<img src="resources/img/logo.png">
 	</div>
 	<p>Built with <i class="fa fa-heart" id="heart" aria-hidden="true"></i> in the beautiful city of Jaipur, India.</p>
 	<small>&copy; 2016 by Sanchay Javeria. All rights reserved.</small>
