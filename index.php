@@ -34,6 +34,7 @@
 
 	 <!-- stylesheet -->
 	 <link rel="stylesheet" type="text/css" href="resources/css/portfolio.css">
+	 <link rel="stylesheet" type="text/css" href="resources/css/media-queries.css">
 
      <!-- Animate -->
      <link rel="stylesheet" type="text/css" href="external/css/animate.css">
