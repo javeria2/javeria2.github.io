@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<!-- meta data -->
-	<meta character="utf-8">
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; user-scalable=no" />
  	<meta name="description" content="Portfolio website of Sanchay Javeria, Computer Science Undergrad at University of Illinois, Urbana-Champaign." />
  	<meta name="keywords" content="Sanchay Javeria, Sanchay Javeria website, Sanchay Javeria Portfolio, inspiration, CS@UofI, Computer Science, developer, web designer" />
 	<meta name="author" content="Sanchay Javeria" />
@@ -14,7 +14,7 @@
 	<link rel="icon" type="image/png" href="resources/favicons/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="resources/favicons/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="resources/favicons/manifest.json">
-	<link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg">
 	<link rel="shortcut icon" href="resources/favicons/favicon.ico">
 	<meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
@@ -47,6 +47,7 @@
 </head>
 
 <body>
+<?php include_once("analyticstracking.php") ?>
 
 <!-- PRELOADER -->
 <div class="se-pre-con"></div>
@@ -65,7 +66,7 @@
 
 <!-- NAVIGATION BAR -->
 <nav>
-	<img src="resources/img/logo.png"><span id="sanchayjaveria"><span id="sanchay">Sanchay</span> <span id="javeria">Javeria</span></span>
+	<img src="resources/img/logo.png" alt="logo"><span id="sanchayjaveria"><span id="sanchay">Sanchay</span> <span id="javeria">Javeria</span></span>
     <a class="burger-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
 	<div class="nav-links">
 	    <a href="#link__about-me" class="a1" id="format">About me</a>
@@ -86,7 +87,7 @@
 	</div>
 	<div class="container">
 		<p>I'm Sanchay, currently pursuing my B.S. in Computer Science from the University of Illinois at Urbana-Champaign. I'm a full stack Web-Developer and besides coding for the web, my key interests lie in iOS Programming and UI/UX Design. I'm a believer of the fact that what doesn't look good, doesn't sell and that is why I give material design the utmost priority in all my works.</p>
-		<p>In my free hours, I like to <span class="typer" id="typerjs" data-delay="70" data-delim=":" data-words="leisure travel.:read manga.:play billiards.:swim.:listen to EDM.:watch anime.:figure out who'll claim the iron throne?" data-colors="white"></span></p>
+		<p>In my free hours, I like to <span class="typer" id="typerjs" data-delay="50" data-delim=":" data-words="leisure travel.:read comics.:play billiards.:swim.:listen to EDM.:watch anime.:figure out who'll claim the iron throne?" data-colors="white"></span></p>
 		<p>Currently I'm on the lookout for an exciting new project. If you'd want to collaborate on some quirky ideas or just talk about life in general, get in touch!</p>
 	</div>
 </section>
@@ -127,19 +128,19 @@
 		</div>
 		<div class="container">
 			<div class="col span-1-of-4 box-p">
-				<img src="resources/img/bulb.svg">
+				<img src="resources/img/bulb.svg" alt="bulb">
 				<span id="box-p-text">Visualize</span>
 			</div>
 			<div class="col span-1-of-4 box-p">
-				<img src="resources/img/pencil.svg">
+				<img src="resources/img/pencil.svg" alt="pencil">
 				<span id="box-p-text">Wireframe</span>
 			</div>
 			<div class="col span-1-of-4 box-p">
-				<img src="resources/img/browser.svg">
+				<img src="resources/img/browser.svg" alt="browser">
 				<span id="box-p-text">Prototype</span>
 			</div>
 			<div class="col span-1-of-4 box-p">
-				<img src="resources/img/speed.svg">
+				<img src="resources/img/speed.svg" alt="speed">
 				<span id="box-p-text">Optimize</span>
 			</div>
 		</div>
@@ -407,7 +408,7 @@
 <!-- FOOTER -->
 <footer>
 	<div class="footer-img">
-		<img src="resources/img/logo.png">
+		<img src="resources/img/logo.png" alt="footer logo">
 	</div>
 	<p>Built with <i class="fa fa-heart" id="heart" aria-hidden="true"></i> in the beautiful city of Jaipur, India.</p>
 	<small>&copy; 2016 by Sanchay Javeria. All rights reserved.</small>

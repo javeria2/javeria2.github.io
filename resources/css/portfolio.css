@@ -20,7 +20,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .container {
     max-width: 1140px; 
     margin: 0 auto;
@@ -335,7 +334,7 @@ nav a#format:hover::after {
 .about-me img {
     display: block;
     margin: 0 auto;
-    height: 16rem;
+    height: 20rem;
     width: 15rem;
     margin-bottom: 3rem;
     border-radius: 50%;

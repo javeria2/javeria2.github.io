@@ -61,6 +61,13 @@
         font-size: 1.3rem !important;
     }
 
+    /*RESUME*/
+    .resume{
+       background: url(imgs/symphony.png);
+       background-repeat: repeat;
+    }
+
+
     /*CONTACT*/
    #map {
         width: 100%;
