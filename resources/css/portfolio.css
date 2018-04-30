@@ -16,8 +16,6 @@ body {
     font-size: 62.5%; /*base font-size*/
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 .container {
@@ -361,8 +359,7 @@ nav a#format:hover::after {
 .about-me p:last-child { margin-bottom: 0; }
 
 #typerjs {
-    border-bottom: 1px solid #f3c91f;
-    transition: all 0.3s;
+    border-bottom: 1.5px solid #f3c91f;
 }
 
 /*========*/
@@ -383,14 +380,6 @@ nav a#format:hover::after {
     text-transform: uppercase;
     text-align: center;
     font-size: 3.5rem;
-}
-
-.skills #top-h3 {
-    text-align: center;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 2.8rem;
 }
 
 .skills h2::after,
@@ -527,12 +516,14 @@ nav a#format:hover::after {
     color: white;
 }
 
-#slide1 {
+#slide1, 
+#slide6 {
     background-image: linear-gradient(rgba(105, 141, 165, 0.9), rgba(105, 141, 165, 0.9)), url(imgs/macbook.jpeg);
     background-size: cover;
 }
 
-#slide2 {
+#slide2,
+#slide7 {
     background-image: linear-gradient(rgba(10, 149, 174, 0.9), rgba(10, 149, 174, 0.9)), url(imgs/macbook.jpeg);
     background-size: cover;
 }
@@ -582,17 +573,22 @@ nav a#format:hover::after {
 }
 
 #slide1 img,
-#slide2 img{
+#slide2 img,
+#slide7 img{
     max-width: 100%;
 }
 
+#slide7 img {
+    padding-right: 25px;
+}
 
 #slide3 img,
 #slide4 img{
     max-width: 80%;
 }
 
-#slide5 img {
+#slide5 img,
+#slide6 img {
     max-width: 90%;
 }
 

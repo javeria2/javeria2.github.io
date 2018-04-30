@@ -142,7 +142,7 @@ jQuery(document).ready(function($) {
 	  scrollwheel: false,
 	  lat: 40.1131425,
 	  lng: -88.2288502,
-	  zoom: 16
+	  zoom: 12
 	});
 
 	map.addMarker({

@@ -12,14 +12,16 @@
 
 /* medium sized phone screens, < Ipad */
 @media only screen and (max-width: 767px) {
-
+    .homepage-foot p {
+        padding-top: 0;
+    }
     /*HOMEPAGE*/
     header {
         background-position: 80% 0 !important;
     }
     .main-headline {
-        font-size: 0.43rem !important;
-        padding-left: 190px;
+        font-size: 0.4rem !important;
+        margin-left: 0 !important;
         padding-top: 100px;
     }
 
@@ -107,7 +109,6 @@
         display: inline-block;
     }
 
-
     .nav-links {
         display:none;
     }
@@ -170,7 +171,6 @@
     }
     .main-headline {
         font-size: 0.5rem !important;
-        margin-left: 250px !important;
     }
     .link--takiri::before {
         width: 100% !important;
@@ -241,7 +241,6 @@
 @media only screen and (max-width: 1023px) {
     .main-headline {
         font-size: 0.6rem;
-        margin-left: 150px !important;
     }
     .link--takiri::before {
         width: 120%;
@@ -309,7 +308,8 @@
 
     /*PROJECTS*/
     #slide1 img,
-    #slide2 img{
+    #slide2 img,
+    #slide7 img{
         max-width: 80% !important;
         margin-left: 50px !important;
     }
@@ -320,7 +320,8 @@
         margin-left: 50px !important;
     }
 
-    #slide5 img {
+    #slide5 img,
+    #slide6 img {
         max-width: 70% !important;
         margin-left: 50px !important;
     }
@@ -338,6 +339,7 @@
 
 @media only screen and (max-width: 1400px) {
     .main-headline {
+        width: 100%;
         transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);

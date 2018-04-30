@@ -1,18 +1,11 @@
 
-<?php 
-	//get form field values
+<?php //get form field values
 	$name = strip_tags(trim($_POST["name"]));
 	$name = str_replace(array("\r","\n"), array(" "," "), $name);
 	$email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 	$message = trim($_POST["message"]);
 	$reason = $_POST["reason"];
-
-	//handle errors 
-	if(empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		header("Location: http://sanchayjaveria.herokuapp.com/index.php?success=-1#form");
-		exit;
-	}
-
+	
 	//set the recipient email address
 	$recipient = "sanchay@sanchayjaveria.com";
 
@@ -22,6 +15,7 @@
 	//build email's content 
 	$email_content = "Name: $name\n";
 	$email_content .= "Email: $email\n\n";
+	$email_content .= "Reason: $reason\n\n";
 	$email_content .= "Message: $message\n";
 
 	//build email header
@@ -31,7 +25,4 @@
 
 	//send the email 
 	mail($recipient, $subject, $email_content, $email_headers);
-
-	//redirect with success code 
-	header("Location: http://sanchayjaveria.herokuapp.com/index.php?success=1#form");
-?>
+	echo "<meta http-equiv=\"REFRESH\" content=\"1;url=http://www.sanchayjaveria.com/index.php?success=1#form\">"?>
