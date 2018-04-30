@@ -21,7 +21,7 @@
 	<meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 
-	<!-- Google fonts -->
+	<!-- Google font -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,100,400,300italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic,900italic,400italic' rel='stylesheet' type='text/css'>
 
